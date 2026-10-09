@@ -1,0 +1,14 @@
+{
+  "name": "hypersoft-production-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ssh2": "^1.17.0"
+  }
+}
